@@ -16,6 +16,8 @@
 		2C00B3C32A54613A00725FF6 /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C00B3C22A54613A00725FF6 /* CreateView.swift */; };
 		2C00B3C52A54618100725FF6 /* DropdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C00B3C42A54618100725FF6 /* DropdownView.swift */; };
 		2C00B3C72A556BE400725FF6 /* RemindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C00B3C62A556BE400725FF6 /* RemindView.swift */; };
+		2C00B3CA2A556ECA00725FF6 /* CreateWorkoutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C00B3C92A556ECA00725FF6 /* CreateWorkoutViewModel.swift */; };
+		2C00B3CC2A556F2600725FF6 /* DropdownItemProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C00B3CB2A556F2600725FF6 /* DropdownItemProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		2C00B3C22A54613A00725FF6 /* CreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateView.swift; sourceTree = "<group>"; };
 		2C00B3C42A54618100725FF6 /* DropdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownView.swift; sourceTree = "<group>"; };
 		2C00B3C62A556BE400725FF6 /* RemindView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindView.swift; sourceTree = "<group>"; };
+		2C00B3C92A556ECA00725FF6 /* CreateWorkoutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateWorkoutViewModel.swift; sourceTree = "<group>"; };
+		2C00B3CB2A556F2600725FF6 /* DropdownItemProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownItemProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,7 @@
 		2C00B3AF2A54167700725FF6 /* DailyWorkout */ = {
 			isa = PBXGroup;
 			children = (
+				2C00B3C82A556EB300725FF6 /* ViewModels */,
 				2C00B3B02A54167700725FF6 /* DailyWorkoutApp.swift */,
 				2C00B3B22A54167700725FF6 /* LandingView.swift */,
 				2C00B3C42A54618100725FF6 /* DropdownView.swift */,
@@ -80,6 +85,15 @@
 				2C00B3B72A54167800725FF6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2C00B3C82A556EB300725FF6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2C00B3C92A556ECA00725FF6 /* CreateWorkoutViewModel.swift */,
+				2C00B3CB2A556F2600725FF6 /* DropdownItemProtocol.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +168,8 @@
 			files = (
 				2C00B3BF2A541A1300725FF6 /* PrimaryButtonStyle.swift in Sources */,
 				2C00B3B32A54167700725FF6 /* LandingView.swift in Sources */,
+				2C00B3CA2A556ECA00725FF6 /* CreateWorkoutViewModel.swift in Sources */,
+				2C00B3CC2A556F2600725FF6 /* DropdownItemProtocol.swift in Sources */,
 				2C00B3B12A54167700725FF6 /* DailyWorkoutApp.swift in Sources */,
 				2C00B3C12A541A7700725FF6 /* Color+Extension.swift in Sources */,
 				2C00B3C72A556BE400725FF6 /* RemindView.swift in Sources */,
