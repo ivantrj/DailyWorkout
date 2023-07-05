@@ -15,6 +15,7 @@
 		2C00B3C12A541A7700725FF6 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C00B3C02A541A7700725FF6 /* Color+Extension.swift */; };
 		2C00B3C32A54613A00725FF6 /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C00B3C22A54613A00725FF6 /* CreateView.swift */; };
 		2C00B3C52A54618100725FF6 /* DropdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C00B3C42A54618100725FF6 /* DropdownView.swift */; };
+		2C00B3C72A556BE400725FF6 /* RemindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C00B3C62A556BE400725FF6 /* RemindView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		2C00B3C02A541A7700725FF6 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		2C00B3C22A54613A00725FF6 /* CreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateView.swift; sourceTree = "<group>"; };
 		2C00B3C42A54618100725FF6 /* DropdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownView.swift; sourceTree = "<group>"; };
+		2C00B3C62A556BE400725FF6 /* RemindView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				2C00B3B22A54167700725FF6 /* LandingView.swift */,
 				2C00B3C42A54618100725FF6 /* DropdownView.swift */,
 				2C00B3C22A54613A00725FF6 /* CreateView.swift */,
+				2C00B3C62A556BE400725FF6 /* RemindView.swift */,
 				2C00B3BE2A541A1300725FF6 /* PrimaryButtonStyle.swift */,
 				2C00B3C02A541A7700725FF6 /* Color+Extension.swift */,
 				2C00B3B42A54167800725FF6 /* Assets.xcassets */,
@@ -153,6 +156,7 @@
 				2C00B3B32A54167700725FF6 /* LandingView.swift in Sources */,
 				2C00B3B12A54167700725FF6 /* DailyWorkoutApp.swift in Sources */,
 				2C00B3C12A541A7700725FF6 /* Color+Extension.swift in Sources */,
+				2C00B3C72A556BE400725FF6 /* RemindView.swift in Sources */,
 				2C00B3C32A54613A00725FF6 /* CreateView.swift in Sources */,
 				2C00B3C52A54618100725FF6 /* DropdownView.swift in Sources */,
 			);

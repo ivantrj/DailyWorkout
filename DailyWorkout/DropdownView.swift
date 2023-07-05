@@ -26,8 +26,9 @@ struct DropdownView: View {
                         .font(.system(size: 24, weight: .medium))
                 }
             }
-            .buttonStyle(PrimaryButtonStyle())
+            .buttonStyle(PrimaryButtonStyle(fillColor: .primaryButton))
         }
+        .padding(15)
     }
 }
 

@@ -8,11 +8,33 @@
 import SwiftUI
 
 struct CreateView: View {
+    @State private var isActive = false
+
+    
     var body: some View {
-        VStack {
-            
+        ScrollView {
+            VStack {
+                DropdownView()
+                DropdownView()
+                DropdownView()
+                DropdownView()
+                Spacer()
+                NavigationStack {
+                    Button(action: {
+                        isActive = true
+                    }) {
+                        Text("Next")
+                            .font(.system(size: 24, weight: .medium))
+                    }
+                }
+                .navigationDestination(isPresented: $isActive) {
+                    RemindView()
+                }
+            }
+            .navigationBarTitle("Create")
+            .navigationBarBackButtonHidden(true)
+            .padding(.bottom, 15)
         }
-        .navigationBarTitle("Create")
     }
 }
 
